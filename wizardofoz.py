@@ -62,6 +62,7 @@ while next != "":
 lineTotal = len(lines)
 #print(lines)
 
+print("Press the key to say the phrase:")
 printLines(lines)
 
 #keyItem = keysIndex.index("q")
