@@ -1,4 +1,4 @@
-import os,sys
+import inspect,os,sys
 
 
 #### next improvements
@@ -41,7 +41,9 @@ os.system("clear")
 keys = "1234567890qwertyuiopasdfghjklzxcvbnm"
 keyList = list(keys)
 
-f = open("script.txt")
+#print os.path.dirname(os.path.abspath(inspect.stack()[0][1]))
+
+f = open(os.path.dirname(os.path.abspath(inspect.stack()[0][1])) + "/script.txt")
 # will need to replace this with an argument, or perhaps not to keep command line simple
 
 #lineNo = 1

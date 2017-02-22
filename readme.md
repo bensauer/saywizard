@@ -1,13 +1,13 @@
-A script to run a Wizard of Oz test from a plain text script on OSX using "say".
+#Say, Wizard!
 
-USE
+A script to run a Wizard of Oz voice interface test from a plain text file on OSX using "say". Press a key to have your mac read phrases from your text file. 
 
-1. Download and unzip my script to your home folder
-2. Edit (or copy over) the text file ‘saywizard/script.txt’ in the folder with your phrases.
-3. open Applications / Utilities / Terminal, and type 'cd saywizard' to enter the directory where this script is (or wherever you put it).
-4. type 'python wizardofoz.py' to run the script.
-5. Press the relevant key to have your mac say the phrase.
+##USE
 
+1. Download and unzip this script to your mac
+2. Edit the text file 'script.txt' in the unzipped 'saywizard' folder with your phrases.
+3. Double-click startSayWizard.command to run a test.
+4. Press the relevant key to have your mac say your phrases.
 
 Written by @bensauer. 
-Hat-tip to @abijones at Google for the idea.
+Hat-tip to @jonesabi at Google for the idea.
