@@ -1,6 +1,8 @@
 #Say, Wizard!
 
-A script to run a Wizard of Oz voice interface test from a plain text file on OSX using "say". Press a key to have your mac read phrases from your text file. 
+Press shortcut keys to have your mac read aloud phrases from a text file. 
+
+Designed for running a Wizard of Oz voice interface test on OSX using "say".
 
 ##USE
 
